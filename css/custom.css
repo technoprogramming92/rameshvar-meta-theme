@@ -592,7 +592,7 @@ header.main-header .header-sticky.active {
 .navbar {
   padding: 10px 0px;
   align-items: center;
-  background: var(--white-color);
+  background: var(--primary-color);
 }
 
 .main-header .header-sticky.active-sticky-header.hide .navbar {
@@ -629,7 +629,7 @@ header.main-header .header-sticky.active {
   font-size: 16px;
   font-weight: 500;
   padding: 10px 20px;
-  color: var(--primary-color);
+  color: var(--white-color);
   text-transform: capitalize;
   transition: all 0.3s ease-in-out;
 }
