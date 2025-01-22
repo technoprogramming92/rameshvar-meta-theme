@@ -32,6 +32,7 @@ table {
   text-align: center;
   font-family: var(--default-font);
   font-size: 0.9rem; /* Reduce table font size */
+  overflow-x: auto;
 }
 
 th,
@@ -101,5 +102,7 @@ td:first-child {
 
   table {
     font-size: 0.8rem;
+
+    overflow-x: scroll !important;
   }
 }
