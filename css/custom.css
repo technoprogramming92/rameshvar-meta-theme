@@ -6441,3 +6441,10 @@ header.main-header .header-sticky.active {
     height: 350px;
   }
 }
+
+.orange-title {
+  color: var(--orange-color);
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
