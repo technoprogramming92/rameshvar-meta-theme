@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center; /* Vertically aligns the image and table */
   justify-content: space-between; /* Adds spacing between image and table */
-  gap: 20px; /* Optional: Adds space between the two elements */
+  /* gap: 20px; Optional: Adds space between the two elements */
   padding: 20px;
 }
 
@@ -15,9 +15,13 @@
 }
 
 .product-table {
-  max-width: 55%; /* Adjust table size */
+  max-width: 100%; /* Adjust table size */
 }
 
+.dtp {
+  width: 100%;
+  padding-left: 20px;
+}
 .product-heading {
   font-size: 1.8rem;
   color: var(--accent-color);
