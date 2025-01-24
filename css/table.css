@@ -90,6 +90,15 @@ td:first-child {
   background-color: var(--orange-color);
 }
 
+.mheading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .product-page {
     flex-direction: column;
@@ -119,5 +128,15 @@ td:first-child {
     font-size: 0.8rem;
 
     overflow-x: scroll !important;
+  }
+
+  .mheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+    font-size: small;
   }
 }

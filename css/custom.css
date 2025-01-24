@@ -2249,6 +2249,7 @@ header.main-header .header-sticky.active {
 
 .footer-logo img {
   max-width: 180px;
+  background: #ebebeb;
 }
 
 .about-footer-content {
