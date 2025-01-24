@@ -16,7 +16,7 @@
 
 .product-table {
   max-width: 100%; /* Adjust table size */
-  overflow:auto;
+  overflow: auto;
 }
 
 .dtp {
@@ -93,12 +93,22 @@ td:first-child {
 @media (max-width: 768px) {
   .product-page {
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Centers children horizontally */
     justify-content: center;
   }
 
+  .product-image {
+    display: flex;
+    flex-direction: column; /* Ensures the image and sub-table are stacked vertically */
+    align-items: center; /* Centers all children (image and sub-table) horizontally */
+    justify-content: center; /* Optional: centers elements vertically */
+    width: 100%; /* Ensures the container spans the full width */
+    text-align: center; /* Aligns the sub-table or any text content centrally */
+  }
+
   .product-image img {
-    max-width: 80%;
+    max-width: 80%; /* Ensures the image doesn't exceed 80% of its container */
+    margin-bottom: 1rem; /* Adds spacing between the image and the sub-table */
   }
 
   .product-table {
