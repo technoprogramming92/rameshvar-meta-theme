@@ -16,6 +16,7 @@
 
 .product-table {
   max-width: 100%; /* Adjust table size */
+  overflow:auto;
 }
 
 .dtp {
