@@ -99,6 +99,14 @@ td:first-child {
   align-items: center;
 }
 
+#pd9 {
+  padding-right: 20px;
+  width: 600px;
+}
+
+#pd9t {
+  width: 95%;
+}
 @media (max-width: 768px) {
   .product-page {
     flex-direction: column;
